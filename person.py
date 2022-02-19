@@ -1,12 +1,12 @@
 class person:
-
+# static field
     gender = 'male'
 
     def __init__(self, name, lastname, age):
         self.name = name
         self.lastname = lastname
         self.age = age
-        self.gender = person.gender
+        self.g = person.gender
 
     def tell_your_name(self):
         print('my name is', self.name, self.lastname)
