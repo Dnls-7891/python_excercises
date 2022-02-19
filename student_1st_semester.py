@@ -7,7 +7,6 @@ class student_1st_semester(student):
         self.grades = grades
 
     def introduce_yourself(self):
-        print(f"hi, my name is {self.name}")
         print("I amd a student of {} semester".format(self.semester))
 
     def tell_grades(self):

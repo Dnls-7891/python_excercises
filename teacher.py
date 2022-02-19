@@ -11,3 +11,6 @@ class teacher(person):
 
     def tell_your_age(self):
         print(f"I am a teacher and I am {self.age}")
+
+    def introduce_yourself(self):
+        print("I am a teacher")

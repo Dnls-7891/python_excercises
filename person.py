@@ -1,4 +1,7 @@
-class person:
+from abc import ABC, abstractmethod
+
+# abstract class:
+class person(ABC):
 # static field
     gender = 'male'
 
@@ -18,3 +21,9 @@ class person:
         age_now = self.age
         self.age += 1
         return age_now
+
+# abstract method:
+    @abstractmethod
+    def introduce_yourself(self):
+        pass
+

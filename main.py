@@ -24,6 +24,7 @@ def new_student():
 def new_teacher():
     teacher1 = teacher("finances", "Bob", "Doe", 45)
     teacher1.tell_your_age()
+    teacher1.introduce_yourself()
 
 def new_1st_sem_student():
     student_1st_semester1 = student_1st_semester((2, 2, 3, 4), 4567, "Ian", "Locke", 19)
@@ -35,7 +36,7 @@ def main():
     # new_person()
     # print(a)
     # new_student()
-    # new_teacher()
+    new_teacher()
     new_1st_sem_student()
 
 if __name__ == '__main__':

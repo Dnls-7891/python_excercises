@@ -11,3 +11,6 @@ class student(person):
 
     def my_name_is(self):
         print("hi, I am a student, my name is {}".format(self.name))
+
+    def introduce_yourself(self):
+        print("I am a student.")
